@@ -2,9 +2,11 @@ import market
 class Player:
     def __init__(self,name):
         self.player = {
-            name: {"portfolio" : {},
-                     "money":10000
-                     }
+        }
+    def create_player(self,name):
+        self.player[name] = {
+            "money":10000,
+            "portfolio":{}
         }
     def add_stock(self, stock,player):
         portfolio = self.player[player]["portfolio"]
@@ -26,7 +28,13 @@ class Player:
         self.player[player]["money"] += price
     def display(self,player,market):
         print(f"In {player}'s portfolio, you have ")
+        
         for item,amount in self.player["portfolio"].items:
-            print(item, ":",amount,"shares  the price today is", 
-                  market.stocks[item]["price"], " and has gone up " )
+            condition,percent = market.percentchange(item)
+            if condition:
+                saying=  "has gone up ", percent , "%"
+            else:
+               saying = "has gone down ", percent , "%"
+            print(item, ":",amount,"shares,  the price today is", 
+                  market.stocks[item]["price"], saying )
 

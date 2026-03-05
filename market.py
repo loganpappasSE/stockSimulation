@@ -50,6 +50,11 @@ class Market:
     def new_day(self):
        self.set_previous()
        self.change_price()
-    def percentchange(self):
-       
-      
+    def percentchange(self,stock):
+       change = (self.stocks[stock]["price"]-self.stocks[stock]["previous"]) / self.stocks[stock]["previous"]*100
+       if self.stocks[stock]["price"] > self.stocks[stock]["previous"]:
+          return True, change
+       else:
+          return False, change
+    def dailythree(self):
+       return random.sample(list(self.stocks.keys()),3)
