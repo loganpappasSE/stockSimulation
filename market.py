@@ -11,7 +11,7 @@ class Market:
         for stock in self.stocks.values():
          price = stock["price"]
          risk = stock["risk"]
-         change = random.uniform(.01, risk *.2)
+         change = random.uniform(.01, risk *1)
          if risk < factor:
             price = price * (1+change)
          else:
@@ -20,10 +20,10 @@ class Market:
       
     def moon(self):
        lucky_day=random.randint(1,10)
-       if lucky_day in range(1,11):
+       if lucky_day in range(1,4):
            symbol = random.choice(list(self.stocks.keys()))
            self.stocks[symbol]["price"] *=8
-           return symbol + " is going to the moon!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
+           return symbol + " is going to the moon!!!!!!!!!!!!"
     def new_day(self):
        self.set_previous()
        self.change_price()

@@ -3,7 +3,7 @@ from market import Market
 import sys
 players = Player()
 daMarket = Market()
-name = input("Enter your name:")
+name = input("Enter your name:").strip()
 if name not in players.player:
     players.create_player(name)
 while True:
@@ -15,15 +15,14 @@ while True:
         price = daMarket.stocks[stock]["price"]
         risk = daMarket.stocks[stock]["risk"]
         print(stock, "-",price, " risk: ", risk)
-    choice = input("would you like to buy or sell or leave?")
+    choice = input("would you like to buy or sell or leave?").strip().lower()
     if choice == "buy":
-        schoice = input("which stock?")
+        schoice = input("which stock?").strip()
         players.buy_stock(schoice,name,daMarket)
         daMarket.new_day()
     elif choice == "sell":
-        sell = input("which stock?")
+        sell = input("which stock? (or all?)").strip()
         players.sell_stock(sell,name,daMarket)
-        daMarket.new_day()
     else:
         
         break

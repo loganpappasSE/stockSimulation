@@ -8,6 +8,7 @@ class Player:
             "money":10000,
             "portfolio":{}
         }
+    
     def add_stock(self, stock,player):
         portfolio = self.player[player]["portfolio"]
         if stock in portfolio:
@@ -27,6 +28,8 @@ class Player:
         price = market.stocks[stock]["price"]
         self.delete_stock(stock,player)
         self.player[player]["money"] += price
+        if self.player[player]["portfolio"][stock] == 0:
+                del self.player[player]["portfolio"][stock]
         storage.save(self.player)
     def display(self,player,market):
         print(f"In {player}'s portfolio, you have ")

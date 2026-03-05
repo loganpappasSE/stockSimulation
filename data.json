@@ -1,15 +1,13 @@
 {
     "Logan": {
-        "money": 7836.5199999999995,
+        "money": 8087.339999999999,
         "portfolio": {
-            "PLTR": 0,
-            "TSLA": 0,
-            "AMD": 0,
-            "UBER": 0,
-            "GOOG": 0,
-            "COIN": 0,
-            "NFLX": 1,
-            "AAPL": 1
+            "AAPL": 1,
+            "META": 1,
+            "COIN": 2,
+            "SNAP": 2,
+            "SQ": 1,
+            "SHOP": 1
         }
     }
 }
