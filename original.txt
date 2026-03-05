@@ -1,0 +1,26 @@
+{
+            "AAPL": {"price": 180, "risk": 0.2,"previous":180},
+            "MSFT": {"price": 320, "risk": 0.2,"previous":320},
+            "GOOG": {"price": 140, "risk": 0.3,"previous":140},
+            "AMZN": {"price": 130, "risk": 0.4,"previous":130},
+            "META": {"price": 310, "risk": 0.5,"previous":310},
+
+            "TSLA": {"price": 240, "risk": 0.8,"previous":240},
+         "NVDA": {"price": 450, "risk": 0.7,"previous":450},
+            "AMD": {"price": 120, "risk": 0.6,"previous":120},
+            "INTC": {"price": 40, "risk": 0.4,"previous":40},
+            "ORCL": {"price": 110, "risk": 0.3,"previous":110},
+
+            "NFLX": {"price": 430, "risk": 0.6,"previous":430},
+            "DIS": {"price": 95, "risk": 0.4,"previous":95},
+            "UBER": {"price": 65, "risk": 0.7,"previous":65},
+            "SHOP": {"price": 75, "risk": 0.8,"previous":75},
+            "SQ": {"price": 70, "risk": 0.7,"previous":70},
+
+            "COIN": {"price": 95, "risk": 0.9,"previous":95},
+            "SNAP": {"price": 20, "risk": 0.8,"previous":20},
+            "ROKU": {"price": 60, "risk": 0.7,"previous":60},
+            "PLTR": {"price": 25, "risk": 0.6,"previous":25},
+            "RIVN": {"price": 18, "risk": 0.9,"previous":18}
+
+        }

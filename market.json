@@ -1,0 +1,102 @@
+{
+    "AAPL": {
+        "price": 1687.18,
+        "risk": 0.2,
+        "previous": 1661.95
+    },
+    "MSFT": {
+        "price": 409.24,
+        "risk": 0.2,
+        "previous": 398.13
+    },
+    "GOOG": {
+        "price": 153.8,
+        "risk": 0.3,
+        "previous": 147.4
+    },
+    "AMZN": {
+        "price": 155.63,
+        "risk": 0.4,
+        "previous": 152.44
+    },
+    "META": {
+        "price": 333.47,
+        "risk": 0.5,
+        "previous": 325.2
+    },
+    "TSLA": {
+        "price": 97.63,
+        "risk": 0.8,
+        "previous": 102.27
+    },
+    "NVDA": {
+        "price": 198.76,
+        "risk": 0.7,
+        "previous": 213.78
+    },
+    "AMD": {
+        "price": 82.44,
+        "risk": 0.6,
+        "previous": 81.56
+    },
+    "INTC": {
+        "price": 45.11,
+        "risk": 0.4,
+        "previous": 42.04
+    },
+    "ORCL": {
+        "price": 134.83,
+        "risk": 0.3,
+        "previous": 132.37
+    },
+    "NFLX": {
+        "price": 278.72,
+        "risk": 0.6,
+        "previous": 275.31
+    },
+    "DIS": {
+        "price": 95.41,
+        "risk": 0.4,
+        "previous": 94.44
+    },
+    "UBER": {
+        "price": 25.07,
+        "risk": 0.7,
+        "previous": 28.9
+    },
+    "SHOP": {
+        "price": 262.47,
+        "risk": 0.8,
+        "previous": 269.43
+    },
+    "SQ": {
+        "price": 37.69,
+        "risk": 0.7,
+        "previous": 42.2
+    },
+    "COIN": {
+        "price": 87.24,
+        "risk": 0.9,
+        "previous": 96.8
+    },
+    "SNAP": {
+        "price": 7.03,
+        "risk": 0.8,
+        "previous": 7.5
+    },
+    "ROKU": {
+        "price": 30.51,
+        "risk": 0.7,
+        "previous": 30.92
+    },
+    "PLTR": {
+        "price": 15.84,
+        "risk": 0.6,
+        "previous": 15.52
+    },
+    "RIVN": {
+        "price": 2.24,
+        "risk": 0.9,
+        "previous": 2.48
+    }
+}
