@@ -1,102 +1,102 @@
 {
     "AAPL": {
-        "price": 2296.52,
+        "price": 2108.04,
         "risk": 0.2,
-        "previous": 2081.04
+        "previous": 2046.33
     },
     "MSFT": {
-        "price": 573.54,
+        "price": 3683.42,
         "risk": 0.2,
-        "previous": 518.21
+        "previous": 3580.66
     },
     "GOOG": {
-        "price": 306.14,
+        "price": 196.54,
         "risk": 0.3,
-        "previous": 250.82
+        "previous": 192.86
     },
     "AMZN": {
-        "price": 233.41,
+        "price": 146.75,
         "risk": 0.4,
-        "previous": 171.92
+        "previous": 139.35
     },
     "META": {
-        "price": 444.58,
+        "price": 261.41,
         "risk": 0.5,
-        "previous": 556.26
+        "previous": 250.84
     },
     "TSLA": {
-        "price": 24.51,
+        "price": 5824.98,
         "risk": 0.8,
-        "previous": 70.41
+        "previous": 5541.0
     },
     "NVDA": {
-        "price": 226.85,
+        "price": 185.8,
         "risk": 0.7,
-        "previous": 375.88
+        "previous": 177.33
     },
     "AMD": {
-        "price": 71.88,
+        "price": 106.54,
         "risk": 0.6,
-        "previous": 118.29
+        "previous": 98.15
     },
     "INTC": {
-        "price": 87.21,
+        "price": 41.9,
         "risk": 0.4,
-        "previous": 63.96
+        "previous": 39.87
     },
     "ORCL": {
-        "price": 174.16,
+        "price": 149.1,
         "risk": 0.3,
-        "previous": 164.21
+        "previous": 142.52
     },
     "NFLX": {
-        "price": 2974.95,
+        "price": 2941.82,
         "risk": 0.6,
-        "previous": 4847.49
+        "previous": 2721.52
     },
     "DIS": {
-        "price": 137.2,
+        "price": 713.07,
         "risk": 0.4,
-        "previous": 116.46
+        "previous": 686.96
     },
     "UBER": {
-        "price": 24.8,
+        "price": 35.23,
         "risk": 0.7,
-        "previous": 65.23
+        "previous": 33.89
     },
     "SHOP": {
-        "price": 8.11,
+        "price": 31.2,
         "risk": 0.8,
-        "previous": 21.04
+        "previous": 28.35
     },
     "SQ": {
-        "price": 20.9,
+        "price": 28.0,
         "risk": 0.7,
-        "previous": 40.76
+        "previous": 26.55
     },
     "COIN": {
-        "price": 2.92,
+        "price": 9.93,
         "risk": 0.9,
-        "previous": 15.03
+        "previous": 10.42
     },
     "SNAP": {
-        "price": 12.64,
+        "price": 7.3,
         "risk": 0.8,
-        "previous": 19.17
+        "previous": 7.15
     },
     "ROKU": {
-        "price": 10.28,
+        "price": 36.41,
         "risk": 0.7,
-        "previous": 23.28
+        "previous": 33.01
     },
     "PLTR": {
-        "price": 11.27,
+        "price": 192.11,
         "risk": 0.6,
-        "previous": 19.9
+        "previous": 178.2
     },
     "RIVN": {
-        "price": 0.75,
+        "price": 3.54,
         "risk": 0.9,
-        "previous": 0.83
+        "previous": 4.04
     }
 }

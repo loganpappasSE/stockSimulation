@@ -25,15 +25,36 @@ class Player:
         self.add_stock(stock,player)
         storage.save(self.player)
     def sell_stock(self,stock,player,market):
+        # support selling all stocks at once
+        if stock == "ALL":
+            portfolio = self.player[player]["portfolio"]
+            if not portfolio:
+                print("You have no stocks to sell.")
+                return
+            total = 0
+            for s, amt in list(portfolio.items()):
+                price = market.stocks.get(s, {}).get("price", 0)
+                total += price * amt
+                del portfolio[s] 
+            self.player[player]["money"] += total
+            storage.save(self.player)
+            print(f"Sold all stocks for ${round(total,2)}")
+            return
+
+        # sell a single share of the given stock
+        portfolio = self.player[player]["portfolio"]
+        if stock not in portfolio:
+            print("You don't own that stock.")
+            return
         price = market.stocks[stock]["price"]
         self.delete_stock(stock,player)
         self.player[player]["money"] += price
-        if self.player[player]["portfolio"][stock] == 0:
+        if self.player[player]["portfolio"].get(stock, 0) == 0:
                 del self.player[player]["portfolio"][stock]
         storage.save(self.player)
     def display(self,player,market):
         print(f"In {player}'s portfolio, you have ")
-        print(self.player[player]["money"], "$ \n" \
+        print(round(self.player[player]["money"],2) , "$ \n-------------\n" \
             " your portfolio is ")
         for item,amount in self.player[player]["portfolio"].items():
             condition,percent = market.percentchange(item)

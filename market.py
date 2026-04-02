@@ -11,7 +11,7 @@ class Market:
         for stock in self.stocks.values():
          price = stock["price"]
          risk = stock["risk"]
-         change = random.uniform(.01, risk *1)
+         change = random.uniform(.01, risk *.2)
          if risk < factor:
             price = price * (1+change)
          else:

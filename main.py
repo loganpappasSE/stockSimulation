@@ -17,11 +17,11 @@ while True:
         print(stock, "-",price, " risk: ", risk)
     choice = input("would you like to buy or sell or leave?").strip().lower()
     if choice == "buy":
-        schoice = input("which stock?").strip()
+        schoice = input("which stock?").strip().upper()
         players.buy_stock(schoice,name,daMarket)
         daMarket.new_day()
     elif choice == "sell":
-        sell = input("which stock? (or all?)").strip()
+        sell = input("which stock? (or all?)").strip().upper()
         players.sell_stock(sell,name,daMarket)
     else:
         

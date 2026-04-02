@@ -1,13 +1,6 @@
 {
-    "Logan": {
-        "money": 8087.339999999999,
-        "portfolio": {
-            "AAPL": 1,
-            "META": 1,
-            "COIN": 2,
-            "SNAP": 2,
-            "SQ": 1,
-            "SHOP": 1
-        }
+    "mayi": {
+        "money": 11992.209999999997,
+        "portfolio": {}
     }
 }
