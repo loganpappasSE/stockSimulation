@@ -13,7 +13,7 @@ while True:
     print("todays market looks like: ")
     for stock in daily:
         price = daMarket.stocks[stock]["price"]
-        risk = daMarket.stocks[stock]["risk"]
+        risk = daMarket.stocks[stock]["risk"]d
         print(stock, "-",price, " risk: ", risk)
     choice = input("would you like to buy or sell or leave?").strip().lower()
     if choice == "buy":
